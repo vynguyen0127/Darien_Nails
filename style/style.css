@@ -1,6 +1,8 @@
-/* Navbar */
-.navbar .navbar-nav{
+body {
+  background-color: #171717
 }
+
+/* Navbar */
 
 .nav-link{
     font-size: 1.1em;
@@ -10,10 +12,14 @@
     
 }
 .navbar .navbar-nav .nav-link:hover{
-    color: #fcd151;
+    color: #f5af01;
 }
 .navbar-logo-centered .navbar-nav .nav-link{
     padding: .5em 1em;
+}
+
+.navbar-brand{
+
 }
 
 
@@ -56,7 +62,7 @@ footer{
 }
 
 .footer-content h2{
-  color: #fcd151;
+  color: #f5af01;
   font-size: large;
 }
 
@@ -105,7 +111,7 @@ footer{
 
 /* End Map Embed */
 .page-header{
-  text-align: center; border: 1px #fcd151 solid; background: #fcd151; color:white
+  text-align: center; border: 1px #f5af01 solid; background: #f5af01; color:white
 }
 
 .image-container {
@@ -219,6 +225,10 @@ footer{
   justify-content: center;
 }
 
+.about-content p,h1{
+  color:white
+}
+
 .container {
   display: flex;
   margin-top: 75px;
@@ -237,16 +247,32 @@ footer{
 
   .service-image{
     width: 80%;
-  
+    margin-left: 10%;
+    margin-top: 10%;
   }
 
   .carousel-img {
     margin-right: 15%;
-    margin-left:15%;
+    margin-left: 15%;
     width: 70%;
     height: auto;
     border-radius: 20px;
     box-shadow:2px 2px 4px #000000;
+  }
+
+  .about-content{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .overlay-text{
+    color: white;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: medium;
   }
 
   .service-header h1{
