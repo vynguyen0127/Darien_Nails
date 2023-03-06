@@ -286,12 +286,12 @@ footer{
   }
 
   .navbar-collapse{
-    background-color: #171717;
+    /* background-color: #171717; */
     z-index: 200;
     width: 60%;
-    color:#008080;
+    /* color:#008080; */
     padding: 10px;
-    box-shadow: lightblue 2px 2px 4px;
+    /* box-shadow: lightblue 2px 2px 4px; */
     border-radius: 4px;
     margin-left: 10px;
   }
