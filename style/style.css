@@ -1,5 +1,5 @@
 body {
-  background-color: #171717
+  background-color: #292303
 }
 
 /* Navbar */
@@ -234,6 +234,11 @@ footer{
   margin-top: 75px;
 }
 
+
+.gallery {
+  padding: 90px;
+  margin-bottom: 200px;
+}
 /* media query styles */
 @media (max-width: 1199px) {
   .container {
