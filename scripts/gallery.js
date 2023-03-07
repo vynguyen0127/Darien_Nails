@@ -3,7 +3,14 @@ console.log("executing gallery.js");
 let img_array = [
 "../src/store-1.jpeg",
 "../src/store-2.jpg",
-"../src/store-3.jpg"
+"../src/store-3.jpg",
+"../src/store-4.jpg",
+"../src/store-5.jpg",
+"../src/store-6.jpg",
+"../src/store-7.jpg",
+"../src/store-9.jpg",
+"../src/store-10.jpg",
+"../src/store-11.jpg",
 ]
 
 var gallery = document.createElement('div');
